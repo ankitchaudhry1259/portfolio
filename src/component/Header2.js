@@ -28,6 +28,11 @@ function Header() {
                         </NavLink>
                     </li>
                     <li>
+                        <NavLink to='/certificates' className={({ isActive }) => `hover:text-[#099e66] header_hide ${isActive ? "text-[#099e66]" : "text-white"}`}>
+                            Certificates
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink to='/contact' className={({ isActive }) => `hover:text-[#099e66] header_hide ${isActive ? "text-[#099e66]" : "text-white"}`}>
                             Contact
                         </NavLink>

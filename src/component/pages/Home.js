@@ -55,8 +55,8 @@ function Home() {
         <>
             <div className="home_center absolute z-20 ">
                 <h1 ref={motName} className=" text-[70px] font-bold mb-[34px] md:w-[560px] tracking-[5px]">Ankit Chaudhry</h1>
-                <p ref={motLeft} className="text-center text-[25px] md:text-[30px] tracking-wide"> I'm a <span className=' text-[#099e66]'> <Typewriter
-                    words={['Developer', 'Data Analyst', 'Engineer']}
+                <p ref={motLeft} className="text-center text-[25px] md:text-[30px] tracking-wide"> I'm an <span className=' text-[#099e66]'> <Typewriter
+                    words={['Aspiring Developer', 'Aspiring Data Analyst', 'Aspiring Engineer']}
                     loop={false}
                     cursor
                     cursorStyle='|'

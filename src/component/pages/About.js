@@ -1,6 +1,6 @@
 import React from "react";
 
-import m5 from "../../img/m5.png";
+import m5 from "../../img/self.jpeg";
 // import leetcode from "../../img/LeetCode.png";
 import resume from "../../assest/Resume/Ankit general.docx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -18,8 +18,8 @@ function About() {
                     <h1 className="text-[46px] mb-[37px] font-bold">About Me</h1>
                 </div>
                 <div className="flex g-4 flex-col md:flex-col lg:flex-row justify-between mb-[90px]">
-                    <div className=" w-[100%] lg:w-[100rem] md:w-[100%]  pt-3">
-                        <img className=" rounded-[20px] w-full h-full removeb" src={m5} alt="" />
+                    <div className=" w-[100%] lg:w-[100rem] md:w-[100%]  pt-3 pr-6">
+                        <img className=" rounded-full w-full  removeb" src={m5} alt="" />
                     </div>
                     <div className="">
                         <h2 className=" text-[25px] mb-4 font-bold text-[#009e66]">Who am I?</h2>
